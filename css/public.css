@@ -1,0 +1,60 @@
+html{-webkit-text-size-adjust:none; /*解决chrome浏览器下字体不能小于12px*/}
+body{font-family:"Arial","微软雅黑","宋体", Helvetica, sans-serif;
+      /*font-family:Helvetica;*//*手机字体*/
+     margin: 0; font-size:14px ;line-height: 1.5; color: #333333; background-color: white; height: 100%; -webkit-overflow-scrolling: touch;}
+html{zoom:1;}html *{outline:0;zoom:1;} 
+html button::-moz-focus-inner{border-color:transparent!important;}
+/*设置margin和padding为0*/
+body,div,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+ 
+a{outline:none; text-decoration:none; color: #000000;}
+
+audio,video { display: inline-block; vertical-align: baseline; }
+audio:not([controls]) { display: none; height: 0; }
+table{border-collapse:collapse;border-spacing:0;}
+ 
+fieldset,a img{border:0;}
+img { border: 0; vertical-align: middle; }
+address,caption,cite,code,dfn,em,th,var，i{font-style:normal;font-weight:normal;}
+caption,th{text-align:left;}
+
+/*字体设置*/
+font{font-size: 14px;}
+span{color:#888888;font-family:"微软雅黑";font-size: 14px; font-weight: 400;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+ul, li,ol { list-style: none outside none; }
+h1, h2, h3 { line-height: 2; font-weight: normal; }
+h1 { font-size: 1.8rem; }
+h2 { font-size: 1.6rem; }
+h3 { font-size: 1.4rem; }
+
+input::-moz-placeholder, textarea::-moz-placeholder { color: #cccccc; }
+input:-ms-input-placeholder, textarea:-ms-input-placeholder { color: #cccccc; }
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color: #cccccc; }
+button, input, optgroup, select, textarea { color: inherit; font: inherit; margin: 0; }
+button { overflow: visible; }
+button, select { text-transform: none; }
+button, html input[type="button"], input[type="reset"], input[type="submit"] { -webkit-appearance: button; cursor: pointer; }
+button[disabled], html input[disabled] { cursor: default; }
+button::-moz-focus-inner, input::-moz-focus-inner{ border: 0; padding: 0; }
+input { line-height: normal;outline: medium; }
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; }
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button { height: auto; }
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+input::-webkit-input-placeholder{color:#aaa;}
+/*所用的input的占位符placeholder的字体颜色*/
+input:focus::-webkit-input-placeholder{color:#EEEEEE;}
+/*所用的input的占位符placeholder的字体颜色*/
+input[type="submit"],input[type="reset"],input[type="button"],input[type=date],button,select{
+    appearance:none;
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari 和 Chrome */
+    /*去掉苹果的默认UI来渲染按钮 、解决部分手机浏览器对border：none无效办法*/
+}
+
+*{ -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.red{color: red;}
+.content{width: 1200px; margin: 0 auto; min-width: 1200px;}
+.container{ width: 100%; min-width: 1200px;}

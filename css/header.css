@@ -1,0 +1,87 @@
+header{
+	width: 100%;
+	min-width: 1200px;
+	height: 30px;
+	background: #f5f5f5;
+}
+header a,header em{
+	float: left;
+	display: block;
+	font-size: 12px;
+}
+header a{
+	line-height: 30px;
+}
+header a:hover{
+	text-decoration: underline;
+}
+header em{
+	line-height: 28px;
+	padding: 0 5px;
+}
+.header_l{
+	float: left;
+}
+.header_r{
+	float: right;
+}
+nav{
+	height:140px;
+	width: 100%;
+	min-width: 1200px;
+}
+.nav_logo{
+	height: 90px;
+	position: relative;
+	padding: 2px 0;
+}
+.logo{
+	position: absolute;
+	left: 0;
+	z-index: 1;
+}
+.logo_search{
+	position: absolute;
+	z-index: 2;
+	top: 30px;
+	right: 105px;
+}
+.logo_search input{
+	float: left;
+	height: 30px;
+}
+.logo_search_ser{
+	border: 1px solid #fea500;
+	width: 250px;
+	text-indent: 5px;
+}
+.logo_search_btn{
+	width: 70px;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+	background: #fea500;
+	border: none;
+
+}
+.nav a{
+	display: block;
+	float: left;
+	width: 129px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+.nav a:hover{
+	color: #fea500;
+	font-weight: bold;
+	transition-property: border-color,background-color,color;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+}
+.active{
+	color: #fea500;
+	font-weight: bold;
+}

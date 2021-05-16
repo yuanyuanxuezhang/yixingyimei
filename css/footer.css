@@ -1,0 +1,22 @@
+footer{
+	clear: all;
+	margin-top:10px ;
+	width: 100%;
+	background: #f5f5f5;
+	color: #000000;
+	padding: 25px 0 20px 0;
+	height: 117px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 24px;
+}
+footer em{
+	color: #000000;
+	padding: 0 4px 0 4px;
+}
+footer a{
+	color: #000 ;
+}
+footer a:hover{
+	text-decoration: underline;
+}
